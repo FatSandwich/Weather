@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: #d6d6d6;
+  height: 390px;
+  width: 220px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px
+}
+
+.high {
+  display: flex;
+  flex-direction: column;
+  background-color: #d6d6d6;
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: -440;
+  bottom: 0;
+  border-radius: 20px;
+}
+
+.namehi {
+  color: #313131;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 8px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.hi {
+  color: #313131;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.low {
+  display: flex;
+  flex-direction: column;
+  background-color: #d6d6d6;
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: -440;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+.namelo {
+  color: #313131;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 8px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.lo {
+  color: #313131;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 150px;
+  max-width: 280px;
+  padding: 10px 17px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.4); 
+  border-radius: 20px;
+  text-align: center;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+}
+
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+header input:hover {
+  background-color: rgba(255, 255, 255, 0.6); 
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: #313131;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.current .weather {;
+  color: #313131;
+  font-size: 30px
+}
+
+.current .fl {;
+  margin-top: 5px;
+  color: #313131;
+  font-size: 20px
+}
+
+.current .icon {
+  margin-top: -12;
+  width: 100px;
+}
+
+.current .temp {
+  color: #313131;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.current .temp span {
+  font-weight: 800;
+}
+
+.current {
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
