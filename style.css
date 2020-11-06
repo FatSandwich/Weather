@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
+  font-family: 'Barlow', sans-serif;
   background-size: cover;
   background-position: top center;
 }
@@ -78,13 +78,13 @@ body {
   font-size: 20px;
   font-weight: 800;
   margin-top: 8px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Barlow', sans-serif;
   text-align: center;
 }
 
 .lo {
   color: #313131;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 40px;
   font-weight: 800;
   text-align: center;
@@ -138,7 +138,7 @@ main {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 5px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 .current .weather {;
@@ -159,7 +159,7 @@ main {
 
 .current .temp {
   color: #313131;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 50px;
   font-weight: 800;
 }
@@ -170,7 +170,7 @@ main {
 
 .current {
   color: #FFF;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 100px;
   font-weight: 800;
 }
