@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-size: cover;
   background-position: top center;
 }
@@ -78,13 +78,14 @@ body {
   font-size: 20px;
   font-weight: 800;
   margin-top: 8px;
-  font-family: 'Barlow', sans-serif;
+  font-family: '
+    ', sans-serif;
   text-align: center;
 }
 
 .lo {
   color: #313131;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 800;
   text-align: center;
@@ -112,7 +113,7 @@ header input {
   font-weight: 300;
   transition: 0.2s ease-out;
   font-weight: 800;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -138,7 +139,7 @@ main {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 5px;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .current .weather {;
@@ -159,7 +160,7 @@ main {
 
 .current .temp {
   color: #313131;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 50px;
   font-weight: 800;
 }
@@ -170,7 +171,7 @@ main {
 
 .current {
   color: #FFF;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: 800;
 }
