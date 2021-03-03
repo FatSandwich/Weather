@@ -67,7 +67,7 @@ body {
   position: absolute;
   margin: auto;
   top: 0;
-  right: -440;
+  right: -480;
   bottom: 0;
   left: 0;
   border-radius: 20px;
@@ -90,6 +90,7 @@ body {
   font-weight: 800;
   text-align: center;
   margin-top: 10px;
+  text-align: center;
 }
 
 header {
